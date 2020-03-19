@@ -1,5 +1,9 @@
 Scroll Function
 ==
+
+![title-banner](docs/banner.png)
+
+
 ```
 Author : Yugeta.Koji
 Date   : 2020.03.19
@@ -8,10 +12,13 @@ Date   : 2020.03.19
 # Summary
 - This module is various function of scroll.
 
-# Lists
+# Functions
 - scroll-header-bar
-- scroll-event
 - scroll-top(bottom)
+
+
+# Plans
+- scroll-event
 - scroll-handle
 - auto-scroll
 
