@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Scroll Function</title>
+  <link rel="stylesheet" href="common.css" />
+  <script src='../src/main.js'></script>
+  
+</head>
+
+<body>
+
+  <header id="header_block">
+    <h1>Scroll Function</h1>
+  </header>
+
+  <div class="contents">
+    <div class="content">
+      <h2>content-1</h2>
+      <div class="message">
+        AAA
+      </div>
+    </div>
+
+    <div class="content">
+      <h2>content-2</h2>
+      <div class="message">
+        BBB
+      </div>
+    </div>
+
+    <div class="content">
+      <h2>content-3</h2>
+      <div class="message">
+        CCC
+      </div>
+    </div>
+
+    <div class="content">
+      <h2>content-4</h2>
+      <div class="message">
+        DDD
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    new $$scroll_function({
+      scrollbar_target : "#header_block",
+      scrollbar_color  : "green"
+    });
+    
+  </script>
+
+</body>
+</html>
